@@ -1,14 +1,14 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'STM32-STM32F103-5df41aa373704816a32e8d2a5c75b89a',
+  rootNotionPageId: '89da7de168f34226a92aeb4c973922a3',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'STM32库开发实战指南：基于STM32F103复习',
-  domain: 'https://www.notion.so/liyaosong/STM32-STM32F103-5df41aa373704816a32e8d2a5c75b89a',
+  name: '重庆邮电大学2022年硕士研究生入学',
+  domain: 'https://www.notion.so/liyaosong/89da7de168f34226a92aeb4c973922a3',
   author: '超酷小团团',
 
   // open graph metadata (optional)
