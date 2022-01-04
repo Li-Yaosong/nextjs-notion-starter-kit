@@ -179,36 +179,36 @@ export const NotionPage: React.FC<types.PageProps> = ({
         <meta property='og:title' content={title} />
         <meta property='og:site_name' content={site.name} />
 
-        <meta name='twitter:title' content={title} />
-        <meta property='twitter:domain' content={site.domain} />
+        <meta name='bilibili:title' content={title} />
+        <meta property='bilibili:domain' content={site.domain} />
 
-        {config.twitter && (
-          <meta name='twitter:creator' content={`@${config.twitter}`} />
+        {config.bilibili && (
+          <meta name='bilibili:creator' content={`@${config.bilibili}`} />
         )}
 
         {socialDescription && (
           <>
             <meta name='description' content={socialDescription} />
             <meta property='og:description' content={socialDescription} />
-            <meta name='twitter:description' content={socialDescription} />
+            <meta name='bilibili:description' content={socialDescription} />
           </>
         )}
 
         {socialImage ? (
           <>
-            <meta name='twitter:card' content='summary_large_image' />
-            <meta name='twitter:image' content={socialImage} />
+            <meta name='bilibili:card' content='summary_large_image' />
+            <meta name='bilibili:image' content={socialImage} />
             <meta property='og:image' content={socialImage} />
           </>
         ) : (
-          <meta name='twitter:card' content='summary' />
+          <meta name='bilibili:card' content='summary' />
         )}
 
         {canonicalPageUrl && (
           <>
             <link rel='canonical' href={canonicalPageUrl} />
             <meta property='og:url' content={canonicalPageUrl} />
-            <meta property='twitter:url' content={canonicalPageUrl} />
+            <meta property='bilibili:url' content={canonicalPageUrl} />
           </>
         )}
 
