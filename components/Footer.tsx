@@ -45,7 +45,7 @@ export const Footer: React.FC<{
           <a
             className={styles.bilibili}
             href={`https://space.bilibili.com/${config.bilibili}`}
-            title={`Bilibili @${config.bilibili}`}
+            title={`Bilibili @${config.bilibil}`}
             target='_blank'
             rel='noopener noreferrer'
           >
