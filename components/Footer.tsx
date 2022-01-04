@@ -49,7 +49,7 @@ export const Footer: React.FC<{
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaTwitter />
+            <FaBilibili />
           </a>
         )}
 
